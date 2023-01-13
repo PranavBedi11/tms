@@ -1,0 +1,59 @@
+
+
+.container2{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, auto));
+    gap: 2rem;
+}
+.about-img img {
+    width: 100%;
+    height:35vh;
+    border-radius: 3rem 0 3rem 3rem;
+}
+
+
+.about-text span{
+    font-size:1rem;
+    font-weight:500;
+
+
+}
+
+.about-text h2{
+    font-size:1.7rem;
+  
+
+
+}
+.about-text p{
+    font-size: 0.938rem;
+    margin: 1rem 0 1rem;
+}
+
+
+/* MEDIA QUERIES (PHONES) */
+@media screen and (max-width: 768px) {
+
+    .about-text span{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.9rem
+    }
+    .about-text h2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.4rem
+    }
+    
+
+}
+

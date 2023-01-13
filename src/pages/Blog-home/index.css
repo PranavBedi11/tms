@@ -1,0 +1,27 @@
+.Page-stuff{
+    padding-top: 10rem;
+}
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Eudoxus Sans", sans-serif;
+}
+
+button,
+input {
+  font-family: "Eudoxus Sans", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
